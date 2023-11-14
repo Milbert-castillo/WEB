@@ -76,6 +76,8 @@ h1 {
   align-items: center;
   padding: 0 1rem;
   width: 100%;
+  position: relative;
+  top: 20%;
 }
 
 .button {
@@ -94,7 +96,7 @@ h1 {
 }
 
 .button:hover {
-  background: #4837ff;
+  background: #dfdee77a;
   transition: all 0.3s ease;
 }
 
