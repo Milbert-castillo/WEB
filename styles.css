@@ -33,7 +33,7 @@ h1 {
 
 #navbar__logo {
   background-color: #008080;
-  background-image: linear-gradient(to top, #008080 0%, #99fff6 100%);
+  background-image: linear-gradient(to top, #008080 0%, #e7fffddc 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
