@@ -229,8 +229,8 @@ h1 {
 
 .main__content h2 {
   font-size: 4rem;
-  background-color: #008080;
-  background-image: linear-gradient(to top, #008080 0%, #ffffff 100%);
+  background-color: teal;
+  background-image: linear-gradient(to top, #b721ff 0%, #21d421 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-text-fill-color: transparent;
