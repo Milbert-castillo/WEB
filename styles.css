@@ -94,7 +94,7 @@ h1 {
   border-radius: 4px;
   background: #008080;
   color: #fff;
-  transition: background-color 0.3s ease-in-out; /* Adding transition for smooth hover effect */
+  transition: background-color 0.3s ease-in-out;
 }
 
 .button:hover {
