@@ -94,7 +94,7 @@ h1 {
   border-radius: 4px;
   background: #008080;
   color: #fff;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out; /* Adding transition for smooth hover effect */
 }
 
 .button:hover {
@@ -195,4 +195,33 @@ h1 {
 
 #mobile-menu.is-active .bar:nth-child(3) {
   transform: translate(-8px) rotate(-45deg);
+}
+
+
+
+/* Hero Selection CSS */
+.main {
+  background-color: #141414;
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #141414;
+  z-index: 1;
+  width: 100;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+
+.main__content h1 {
+  font-size: 4rem;
+  background-color: #008080;
+  background-image: linear-gradient(to top, #008080 0%, #ffffff 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
 }
