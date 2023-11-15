@@ -10,7 +10,7 @@ h1 {
 }
 
 .navbar {
-  background: #131313;
+  background: #000;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -94,6 +94,7 @@ h1 {
   border-radius: 4px;
   background: #008080;
   color: #fff;
+  transition: background-color 0.3s ease-in-out; /* Adding transition for smooth hover effect */
 }
 
 .button:hover {
